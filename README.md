@@ -51,18 +51,21 @@ Output:
 - Brazil Win: 58%
 - Draw: 27%
 - Argentina Win: 15%
+Predictions are influenced by historical home and away performance.
+## Project Structure
 
 ## Project Structure
 
+```text
 world_cup_predictor/
-WORLD_CUP_PREDICTOR/
 ├── app/
 │   └── app.py          # Main Streamlit UI and prediction logic
-├── data/               # Raw and processed datasets (Ignored by Git)
-├── models/             # Trained ML models and encoders (Ignored by Git)
+├── data/               # Raw and processed datasets
+├── models/             # Trained ML models and encoders
 ├── .gitignore          # Prevents large files from uploading
-├── main.py             # Model training and data preprocessing script
+├── main.py             # Model training and preprocessing
 └── README.md           # Project documentation
+```
 
 ## Future Improvements
 
